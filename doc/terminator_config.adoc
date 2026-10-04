@@ -175,6 +175,13 @@ If set to True, text selection will be cleared after copying using the
 *copy* keybinding. +
 Default value: *False*
 
+*physical_keybindings* = _boolean_::
+If set to True, keybindings are matched against the physical key that was
+pressed, ignoring the active keyboard layout. This keeps shortcuts such as
+Ctrl+C and Ctrl+V working when a non-Latin layout (e.g. Cyrillic or Greek)
+is active. +
+Default value: *False*
+
 // --- Terminal appearance ---
 
 *handle_size* = _integer_::

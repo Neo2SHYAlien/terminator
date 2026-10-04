@@ -245,6 +245,16 @@ If set to True, text selection will be cleared after copying using the
 Default value: \fBFalse\fP
 .RE
 .sp
+\fBphysical_keybindings\fP = \fIboolean\fP
+.RS 4
+If set to True, keybindings are matched against the physical key that was
+pressed, ignoring the active keyboard layout. This keeps shortcuts such as
+Ctrl\-C and Ctrl\-V working when a non\-Latin layout (e.g. Cyrillic or Greek)
+is active.
+.br
+Default value: \fBFalse\fP
+.RE
+.sp
 \fBhandle_size\fP = \fIinteger\fP
 .RS 4
 Specify the width of the separator between terminals.
